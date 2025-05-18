@@ -15,7 +15,6 @@ BASE_URL = os.getenv('BASE_URL')
 ICON_URL = os.getenv('ICON_URL')
 
 # === Setup ===
-# test commit
 root = tk.Tk()
 root.title("Weather App")
 root.geometry("600x450")
