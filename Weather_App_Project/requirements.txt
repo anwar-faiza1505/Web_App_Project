@@ -1,0 +1,16 @@
+# === Core HTTP & API Libraries ===
+requests==2.32.3              # For making HTTP requests to the weather API
+urllib3==2.4.0                # HTTP client used under the hood by requests
+certifi==2025.4.26            # Ensures secure SSL certificate validation
+charset-normalizer==3.4.2     # Handles character encoding for requests
+idna==3.10                    # Supports Internationalized Domain Names
+
+# === Environment Variable Management ===
+python-dotenv==1.1.0          # Loads environment variables from a .env file
+dotenv==0.9.9                 # (Optional) Alternative or older env loader
+
+# === Image & UI Enhancements ===
+pillow==11.2.1                # Image processing (for background and icons)
+
+# === Package Installer (optional) ===
+pip==25.1.1                   # Python package manager (usually not needed here)
