@@ -7,12 +7,13 @@ It fetches live weather data from the OpenWeatherMap API and displays it with an
 
 ## ✨ Features
 
-- 🌤️ Real-time weather by city
+- 🔍 Search weather by city (real-time)
 - 🌀 Animated loading spinner
-- 🕒 Live clock
-- 🖼️ Blurred background and translucent glass-like panels
-- ☀️ Weather icons (sun, rain, clouds, etc.)
-- ✅ Error handling + offline mock data mode
+- 🕒 Live digital clock
+- 🌤️ Weather icons (sun, rain, snow, etc.)
+- 🖼️ Blurred background with glass-like translucent UI
+- ⚠️ Graceful error handling (invalid city, timeout)
+- 📦 Offline/mock data mode for testing without API delay
 
 ---
 
@@ -32,27 +33,33 @@ It fetches live weather data from the OpenWeatherMap API and displays it with an
    git clone https://github.com/your-username/web-app-project.git
    cd web-app-project
    
+   
 2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the app:
+---
 
-```bash
-python weather_app.py
-```
-
-
-### 🔑 Setup
+## 🔑 Setup
 Get your free API key from OpenWeatherMap
 
 Replace the placeholder in the script:
 ```
 API_KEY = "your_api_key_here"
 ```
+💡 You can also store it in a .env file and load it securely using python-dotenv.
 
+---
+
+## ▶️ Run the app
+
+```bash
+python weather_app.py
+```
+
+---
 
 ## 📸 Preview
 
